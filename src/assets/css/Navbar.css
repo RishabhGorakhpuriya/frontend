@@ -1,0 +1,66 @@
+
+.main-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: #fff;
+    box-shadow: 0 4px 2px -2px rgb(0 0 0 / 20%);
+}
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    gap: 1em;
+    top: 0;
+    width: 79%;
+    font-size: 1.5em;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    position: relative;
+}
+
+.nav__link {
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.10em;
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    margin: 10px;
+}
+
+.navbar-nav .active {
+    color: #000 !important;
+    border-bottom: 3px solid #01d28e;
+}
+
+.head-icon {
+    color: #01d28e;
+    font-size: 15px;
+}
+
+.fa-whatsapp:before {
+    color: #01d28e;
+}    
+
+@media only screen and(max-width: 768px) {
+    .nav__list {
+        align-items: left!important;
+        width: 100%;
+    }
+    .nav__list {
+        display: block!important;
+        padding-top: 0;
+    }
+}
+

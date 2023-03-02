@@ -1,0 +1,19 @@
+i.fa-solid.fa-chevron-left.fa-2x {
+    background: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+i.fa-solid.fa-chevron-right.fa-2x {
+    background: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+h1.heading.text-center {
+    color: #01d28e;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.10em;
+    /* display: inline-block; */
+    padding: 15px 20px;
+    position: relative;
+}

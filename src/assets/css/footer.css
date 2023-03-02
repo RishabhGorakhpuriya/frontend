@@ -1,0 +1,56 @@
+
+.footer{
+    background-color:  #01d28e;
+    color: #fff;
+}  
+  #button-addon1 {
+    color: #ffc371;
+  }
+  
+  i {
+    color: #fff;
+    font-size: 20px;
+}
+  
+  .form-control::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  .form-control.shadow-0:focus {
+    box-shadow: none;
+  }
+  
+   
+  .display-3{
+    font-family: 'Sanchez', serif;
+  }
+  
+  p{
+    font-family: 'Tajawal', sans-serif;
+  }
+  
+  .lead{
+    font-family: 'Sanchez 200', serif;
+  }
+  
+  .list-unstyled {
+    text-align: left;
+}
+.footer h5 {
+  font-weight: 600;
+}
+.list-inline-item {
+  font-size: 9px;
+}
+.list-inline-item {
+  border: 1px solid;
+  width: 30px;
+  height: 30px;
+  line-height: 37px;
+  border-radius: 50%;
+}
+.footer p {
+  color: #fff!important;
+}
